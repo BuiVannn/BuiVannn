@@ -9,7 +9,7 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=BuiVannn&label=Profile%20views&color=70a5fd&style=flat-square" alt="views"/>
-  <a href="mailto:xuannamservice@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="gmail"/></a>
+  <a href="mailto:buivanphuctho@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="gmail"/></a>
   <!-- TODO: thay YOUR_LINKEDIN bang username LinkedIn cua ban, hoac xoa ca dong nay -->
   <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="linkedin"/></a>
   <a href="https://github.com/BuiVannn?tab=followers"><img src="https://img.shields.io/github/followers/BuiVannn?style=flat-square&color=bf91f3&labelColor=1a1b27" alt="followers"/></a>
@@ -37,7 +37,7 @@ class BuiMauVan:
 - 🎙️ Focused on **Speech AI for Vietnamese** — TTS, ASR, speaker diarization
 - 🌱 Currently learning: LLM evaluation, inference cost optimization, systematic paper reading
 - 💬 Open to **freelance / internship** work on LLM apps & data pipelines
-- 📫 Reach me at **xuannamservice@gmail.com**
+- 📫 Reach me at **buivanphuctho@gmail.com**
 
 <br/>
 
