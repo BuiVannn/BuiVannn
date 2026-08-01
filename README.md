@@ -9,9 +9,9 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=BuiVannn&label=Profile%20views&color=70a5fd&style=flat-square" alt="views"/>
+  <a href="https://www.linkedin.com/in/bui-mau-van-9870192b7/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="linkedin"/></a>
+  <a href="https://www.facebook.com/BuiVan2004/"><img src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="facebook"/></a>
   <a href="mailto:buivanphuctho@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="gmail"/></a>
-  <!-- TODO: thay YOUR_LINKEDIN bang username LinkedIn cua ban, hoac xoa ca dong nay -->
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="linkedin"/></a>
   <a href="https://github.com/BuiVannn?tab=followers"><img src="https://img.shields.io/github/followers/BuiVannn?style=flat-square&color=bf91f3&labelColor=1a1b27" alt="followers"/></a>
 </p>
 
@@ -20,24 +20,14 @@
 <!-- ═════════════════════════ ABOUT ═════════════════════════ -->
 ## 🧠 About me
 
-```python
-class BuiMauVan:
-    def __init__(self):
-        self.role      = "AI Engineer (in training)"
-        self.school    = "Posts & Telecommunications Institute of Technology (PTIT)"
-        self.focus     = ["LLM applications", "RAG", "Multi-agent systems", "Speech AI"]
-        self.learning  = ["LLM internals", "Agent orchestration", "MLOps"]
-        self.languages = ["Python", "Java", "JavaScript", "Kotlin", "C++"]
-
-    def current_goal(self) -> str:
-        return "Ship real AI products, not just notebooks."
-```
-
-- 🔭 Building **end-to-end LLM applications** — retrieval, agent orchestration, deployment
-- 🎙️ Focused on **Speech AI for Vietnamese** — TTS, ASR, speaker diarization
-- 🌱 Currently learning: LLM evaluation, inference cost optimization, systematic paper reading
-- 💬 Open to **freelance / internship** work on LLM apps & data pipelines
-- 📫 Reach me at **buivanphuctho@gmail.com**
+<table>
+  <tr><td align="right"><b>🎓&nbsp; Education</b></td><td>Computer Science @ <b>PTIT</b> — Hanoi, Vietnam</td></tr>
+  <tr><td align="right"><b>🔭&nbsp; Building</b></td><td>End-to-end <b>LLM applications</b> — retrieval, agent orchestration, deployment</td></tr>
+  <tr><td align="right"><b>🎙️&nbsp; Exploring</b></td><td><b>Speech AI for Vietnamese</b> — TTS, ASR, speaker diarization</td></tr>
+  <tr><td align="right"><b>🌱&nbsp; Learning</b></td><td>LLM evaluation · inference cost optimization · MLOps</td></tr>
+  <tr><td align="right"><b>💬&nbsp; Open to</b></td><td><b>Freelance &amp; internship</b> — LLM apps, RAG systems, data pipelines</td></tr>
+  <tr><td align="right"><b>📫&nbsp; Contact</b></td><td><a href="mailto:buivanphuctho@gmail.com">buivanphuctho@gmail.com</a></td></tr>
+</table>
 
 <br/>
 
