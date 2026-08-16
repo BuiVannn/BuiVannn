@@ -1,15 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 104" width="60" height="104" role="img" aria-label="">
-<defs><style>
-.t{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1.1s ease-out forwards}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 96" width="40" height="96" role="img" aria-label="">
+<defs>
+<linearGradient id="tg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="96">
+<stop offset="0%" stop-color="#447bbe" stop-opacity="0"/>
+<stop offset="22%" stop-color="#447bbe" stop-opacity=".6"/>
+<stop offset="78%" stop-color="#447bbe" stop-opacity=".6"/>
+<stop offset="100%" stop-color="#447bbe" stop-opacity="0"/></linearGradient>
+<style>
+.t{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1.3s ease-out forwards}
 @keyframes draw{to{stroke-dashoffset:0}}
-.knot{animation:kfade .6s ease-out both;animation-delay:.9s}
-@keyframes kfade{from{opacity:0;transform:scale(.4)}to{opacity:1;transform:scale(1)}}
+.dew{animation:dfade .5s ease-out both;animation-delay:1s}
+@keyframes dfade{from{opacity:0}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important}
   .t{stroke-dashoffset:0}}
 </style></defs>
-<path class="t" pathLength="1" d="M30 0Q33 26 30 52Q27 78 30 104" fill="none" stroke="#447bbe" stroke-width="1.5" opacity=".75"/>
-<g class="knot" transform="translate(30,52)" style="transform-origin:30px 52px">
-<path d="M-11 0Q0 -6 11 0Q0 6 -11 0Z" fill="none" stroke="#447bbe" stroke-width="1" opacity=".6"/>
-<circle r="2.6" fill="#df1f2d"/>
-</g>
+<line class="t" pathLength="1" x1="20" y1="0" x2="20" y2="96" stroke="url(#tg)" stroke-width="1"/>
+<circle class="dew" cx="20" cy="48" r=".8" fill="#447bbe" opacity=".5"/>
 </svg>

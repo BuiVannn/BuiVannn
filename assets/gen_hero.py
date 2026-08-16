@@ -2,7 +2,7 @@
 """Sinh toan bo asset SVG cho GitHub profile README.
 
 Chay:  python3 assets/gen_hero.py
-Xuat:  hero.svg  footer.svg  thread.svg  spiders.svg
+Xuat:  hero.svg  footer.svg  thread.svg
 
 Ky thuat: CSS @keyframes nam BEN TRONG file .svg -- day la thu duy nhat
 GitHub khong loc bo (script/style/canvas deu bi sanitizer cat).
@@ -191,93 +191,30 @@ hero = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="
 </svg>"""
 
 
-# ── THREAD: soi to doc, dung lam vach ngan giua cac muc ───────────────────
-TW, TH = 60, 104
-THREAD_CSS = f"""
-.t{{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1.1s ease-out forwards}}
-@keyframes draw{{to{{stroke-dashoffset:0}}}}
-.knot{{animation:kfade .6s ease-out both;animation-delay:.9s}}
-@keyframes kfade{{from{{opacity:0;transform:scale(.4)}}to{{opacity:1;transform:scale(1)}}}}
-@media (prefers-reduced-motion:reduce){{*{{animation:none!important}}
-  .t{{stroke-dashoffset:0}}}}
+# ── THREAD: to nhen doc, dung lam vach ngan giua cac muc ──────────────────
+# Ban dau ve luon song + hat do to -> user che "nhu soi day". To nhen that la
+# soi CANG THANG, manh nhu toc. Sua: thang, 1px, mo dan hai dau, bo hat.
+TW, TH = 40, 96
+THREAD_CSS = """
+.t{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1.3s ease-out forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.dew{animation:dfade .5s ease-out both;animation-delay:1s}
+@keyframes dfade{from{opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}
+  .t{stroke-dashoffset:0}}
 """
+# Mot not duy nhat. Ba hat xau chuoi lai doc ra thanh "chuoi vong", khong phai to nhen.
+_dew = f'<circle class="dew" cx="20" cy="{TH // 2}" r=".8" fill="{BLU_L}" opacity=".5"/>'
 thread = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {TW} {TH}" width="{TW}" height="{TH}" role="img" aria-label="">
-<defs><style>{THREAD_CSS}</style></defs>
-<path class="t" pathLength="1" d="M30 0Q33 26 30 52Q27 78 30 {TH}" fill="none" stroke="{BLU_L}" stroke-width="1.5" opacity=".75"/>
-<g class="knot" transform="translate(30,52)" style="transform-origin:30px 52px">
-<path d="M-11 0Q0 -6 11 0Q0 6 -11 0Z" fill="none" stroke="{BLU_L}" stroke-width="1" opacity=".6"/>
-<circle r="2.6" fill="{RED}"/>
-</g>
-</svg>"""
-
-
-# ── SPIDERS: 3 nguoi nhen chi nhau (SVG, khong phai ASCII) ────────────────
-SPW, SPH = 1000, 300
-
-
-def spidey(cx: float, cy: float, point: int, label: str, delay: float) -> str:
-    """Mot nguoi nhen dang chi tay. point = +1 chi phai, -1 chi trai."""
-    p = point
-    # Ke mang tren mat na -- toa do LOCAL cua nhom dau (da translate), cat theo hinh dau.
-    # Loi cu: dat y=-62..-32 trong local -> bay len phia tren dau.
-    web_lines = "".join(
-        f'<line x1="{-14 + i * 7:.1f}" y1="-19" x2="{-14 + i * 7:.1f}" y2="19" '
-        f'stroke="{RED_D}" stroke-width=".8" opacity=".9"/>'
-        for i in range(5)
-    ) + "".join(
-        f'<path d="M-18 {-13 + i * 8}Q0 {-7 + i * 8} 18 {-13 + i * 8}" fill="none" '
-        f'stroke="{RED_D}" stroke-width=".8" opacity=".9"/>'
-        for i in range(4)
-    )
-    return f"""<g class="sp" transform="translate({cx},{cy})" style="animation-delay:{delay}s">
-<ellipse cy="66" rx="30" ry="6" fill="{BG0}" opacity=".55"/>
-<path d="M{-11 * 1} 4L{11} 4L{14} 62L{5} 62L{0} 26L{-5} 62L{-14} 62Z" fill="{BLU_D}"/>
-<path d="M-16 -34L16 -34L12 6L-12 6Z" fill="{RED}"/>
-<path d="M-16 -34L16 -34L15 -22L-15 -22Z" fill="{RED_D}" opacity=".4"/>
-<g transform="translate(0,-19)">{spider_body(.42, BG0, BG0)}</g>
-<path d="M{-p * 15} -30L{-p * 25} -4L{-p * 19} 0L{-p * 10} -24Z" fill="{RED}"/>
-<path d="M{p * 15} -31L{p * 44} -25L{p * 47} -19L{p * 14} -22Z" fill="{RED}"/>
-<circle cx="{p * 49}" cy="-22" r="3.4" fill="{RED}"/>
-<g transform="translate(0,-47)">
-<ellipse rx="16" ry="17.5" fill="{RED}"/>
-<g clip-path="url(#hc)">{web_lines}</g>
-<path d="M-13 -4Q-7 -12 -1.5 -5Q-6 1 -13 -4Z" fill="{WHT}" stroke="{BG0}" stroke-width="1.4" stroke-linejoin="round"/>
-<path d="M13 -4Q7 -12 1.5 -5Q6 1 13 -4Z" fill="{WHT}" stroke="{BG0}" stroke-width="1.4" stroke-linejoin="round"/>
-</g>
-<text y="92" text-anchor="middle" font-family="{MONO}" font-size="13" fill="{BLU_L}" letter-spacing="3">{label}</text>
-</g>"""
-
-
-SPIDERS_CSS = f"""
-.sp{{animation:rise .7s cubic-bezier(.2,1.2,.4,1) both}}
-@keyframes rise{{from{{opacity:0;transform:translateY(26px)}}}}
-.cap{{animation:cfade .8s ease-out both;animation-delay:1.15s}}
-@keyframes cfade{{from{{opacity:0}}}}
-.zig{{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1s ease-out forwards;
-  animation-delay:.95s}}
-@keyframes draw{{to{{stroke-dashoffset:0}}}}
-@media (prefers-reduced-motion:reduce){{*{{animation:none!important}}
-  .zig{{stroke-dashoffset:0}}}}
-"""
-
-spiders = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {SPW} {SPH}" width="{SPW}" height="{SPH}" role="img" aria-label="Three Spider-Men pointing: train, val, test - data leakage?">
-<title>train / val / test - data leakage?</title>
 <defs>
-<linearGradient id="sbg" x1="0" y1="0" x2="0" y2="1">
-<stop offset="0%" stop-color="{BG1}"/><stop offset="100%" stop-color="{BG0}"/></linearGradient>
-<pattern id="sp" width="13" height="13" patternUnits="userSpaceOnUse">
-<circle cx="3" cy="3" r="2" fill="{RED}"/></pattern>
-<clipPath id="hc"><ellipse rx="16" ry="17.5"/></clipPath>
-<style>{SPIDERS_CSS}</style>
-</defs>
-<rect width="{SPW}" height="{SPH}" fill="url(#sbg)"/>
-<rect width="{SPW}" height="{SPH}" fill="url(#sp)" opacity=".1"/>
-<rect width="{SPW}" height="2.5" fill="{RED}"/>
-<rect y="{SPH-2.5}" width="{SPW}" height="2.5" fill="{BLU_L}"/>
-{spidey(215, 118, +1, "TRAIN", 0.0)}
-{spidey(500, 118, -1, "VAL", 0.15)}
-{spidey(785, 118, -1, "TEST", 0.3)}
-<text class="cap" x="500" y="272" text-anchor="middle" font-family="{FONT}" font-size="26" fill="{WHT}" letter-spacing="5">DATA LEAKAGE?</text>
+<linearGradient id="tg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="{TH}">
+<stop offset="0%" stop-color="{BLU_L}" stop-opacity="0"/>
+<stop offset="22%" stop-color="{BLU_L}" stop-opacity=".6"/>
+<stop offset="78%" stop-color="{BLU_L}" stop-opacity=".6"/>
+<stop offset="100%" stop-color="{BLU_L}" stop-opacity="0"/></linearGradient>
+<style>{THREAD_CSS}</style></defs>
+<line class="t" pathLength="1" x1="20" y1="0" x2="20" y2="{TH}" stroke="url(#tg)" stroke-width="1"/>
+{_dew}
 </svg>"""
 
 
@@ -319,8 +256,7 @@ footer = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {FH}" widt
 </svg>"""
 
 
-FILES = {"hero.svg": hero, "footer.svg": footer, "thread.svg": thread,
-         "spiders.svg": spiders}
+FILES = {"hero.svg": hero, "footer.svg": footer, "thread.svg": thread}
 
 for name, doc in FILES.items():
     p = Path(__file__).with_name(name)
@@ -340,7 +276,6 @@ def _check() -> None:
         assert "prefers-reduced-motion" in doc, f"{name}: thieu guard reduced-motion"
     for name in ("hero.svg", "footer.svg"):
         assert FILES[name].count('class="w"') == 2 * per_web, f"{name}: thieu soi to"
-    assert FILES["spiders.svg"].count('class="sp"') == 3, "phai co dung 3 nguoi nhen"
     print("check: OK")
 
 

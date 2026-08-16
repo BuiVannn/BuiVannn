@@ -1,6 +1,6 @@
 <!-- ════════════════════ HERO ════════════════════ -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BuiVannn/BuiVannn/main/assets/hero.svg?v=2" width="100%" alt="Bui Mau Van - AI Engineer"/>
+  <img src="https://raw.githubusercontent.com/BuiVannn/BuiVannn/main/assets/hero.svg?v=3" width="100%" alt="Bui Mau Van - AI Engineer"/>
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@
   <a href="https://github.com/BuiVannn?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FBuiVannn&query=%24.public_repos&label=REPOS&color=447bbe&style=flat-square&labelColor=0a0e22" alt="repos"/></a>
 </p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/BuiVannn/BuiVannn/main/assets/thread.svg?v=2" height="104" alt=""/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/BuiVannn/BuiVannn/main/assets/thread.svg?v=3" height="96" alt=""/></p>
 
 <!-- ════════════════════ ABOUT ════════════════════ -->
 ## 🕷️ &nbsp;About me
@@ -33,7 +33,7 @@
   <tr><td align="right"><b>📫&nbsp; Contact</b></td><td><a href="mailto:buivanphuctho@gmail.com">buivanphuctho@gmail.com</a></td></tr>
 </table>
 
-<p align="center"><img src="https://raw.githubusercontent.com/BuiVannn/BuiVannn/main/assets/thread.svg?v=2" height="104" alt=""/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/BuiVannn/BuiVannn/main/assets/thread.svg?v=3" height="96" alt=""/></p>
 
 <!-- ════════════════════ STACK ════════════════════ -->
 ## 🕸️ &nbsp;Tech stack
@@ -47,7 +47,7 @@
   <tr><td align="right"><b>DevOps</b></td><td><img src="https://skillicons.dev/icons?i=docker,git,github,linux,vscode&theme=dark" alt="devops"/></td></tr>
 </table>
 
-<p align="center"><img src="https://raw.githubusercontent.com/BuiVannn/BuiVannn/main/assets/thread.svg?v=2" height="104" alt=""/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/BuiVannn/BuiVannn/main/assets/thread.svg?v=3" height="96" alt=""/></p>
 
 <!-- ════════════════════ PROJECTS ════════════════════ -->
 ## 🔴 &nbsp;Featured projects
@@ -64,9 +64,40 @@
 
 <br/>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/BuiVannn/BuiVannn/main/assets/spiders.svg?v=2" width="100%" alt="train / val / test - data leakage?"/>
-</p>
+<div align="center">
+<pre>
+⠀⠀⠀⠀⠀⠀⢰⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡄⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⣾⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀
+⡇⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⢀
+⡇⠀⠀⠀⠀⠀⢨⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⡃⠀⠀⠀⠀⠀⠘
+⢰⠀⠀⠀⠀⠀⢰⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⡆⠀⠀⠀⠀⠀⡇
+⢸⡄⠀⠀⠀⠀⠀⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⠀⠀⠀⠀⠀⢠⠇
+⠘⣧⠀⠀⠀⠀⠀⢸⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀⣼⠀
+⠀⠹⣆⠀⠀⠀⠀⠀⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⠀⠀⠀⠀⠀⣰⠏⠀
+⠀⠀⠹⣧⠀⠀⠀⠀⠸⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⡏⠀⠀⠀⠀⣰⠏⠀⠀
+⠀⠀⠀⠹⣧⠀⠀⠀⠀⠹⣷⡀⠀⠀⠀⠀⠀⠀⢀⣾⠍⠀⠀⠀⠀⣴⠏⠀⠀⠀
+⠀⠀⠀⠀⠙⡧⣀⠀⠀⠀⠘⣿⡄⠀⠀⠀⠀⢠⣾⠏⠀⠀⠀⣀⣼⠏⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠈⠙⠻⣶⣤⡀⠘⢿⡄⣀⣀⢠⣿⠃⠀⣠⣴⡾⠛⠁⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⢷⣜⣿⣿⣿⣿⣣⣶⠿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣤⣽⣿⣿⣿⣿⣯⣅⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⢀⣤⣴⠾⠿⠛⢋⣥⣿⣿⣿⣿⣿⣿⣍⠛⠻⠿⢶⣤⣄⡀⠀⠀⠀⠀
+⠀⠀⠀⢰⡟⠉⠀⠀⠀⣠⡾⣻⢟⣥⣶⣿⣿⣿⡿⣷⣄⠀⠀⠈⠀⢿⡄⠀⠀⠀
+⠀⠀⢠⡟⠀⠀⠀⣠⡾⠋⢰⣯⣾⣿⣿⣿⣿⣿⣿⡈⠻⣷⣄⠀⠀⠈⢷⡀⠀⠀
+⠀⢀⡾⠁⠀⠀⣼⠋⠀⠀⢸⢸⣿⡿⠿⣿⠿⣿⣿⡇⠀⠈⢫⣧⠀⠀⠘⣷⠀⠀
+⠀⣼⠃⠀⠀⢠⣿⠀⠀⠀⠸⣿⣿⣿⡆⠀⣼⡟⣹⠀⠀⠀⠀⣿⠀⠀⠀⠸⣧⠀
+⠀⡟⠀⠀⠀⢸⡏⠀⠀⠀⠀⠙⢿⣯⣶⣶⣮⡿⠃⠀⠀⠀⠀⢹⡇⠀⠀⠀⣿⠀
+⠀⡇⠀⠀⠀⣼⠇⠀⠀⠀⠀⠀⠀⠉⠛⠋⠉⠀⠀⠀⠀⠀⠀⢸⣇⠀⠀⠀⢸⠀
+⠀⡇⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣿⠀⠀⠀⢸⠀
+⠀⡇⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠀⠀⠀⢸⠀
+⠀⡇⠀⠀⠀⢸⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⡏⠀⠀⠀⢸⠀
+⠀⠁⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⠁⠀⠀⠀⠈⠀
+⠀⠀⠀⠀⠀⠀⠸⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡇⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡸⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠈⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠁⠀⠀⠀⠀⠀⠀⠀
+</pre>
+</div>
 
 <details>
 <summary><b>🕸️ &nbsp;How this profile page is built — click to open</b></summary>
@@ -83,7 +114,8 @@ Everything moving on this page rides through that gap:
 
 | Element | Technique |
 |---|---|
-| Banner, footer, thread, the three Spider-Men | Hand-generated SVG — `assets/gen_hero.py` |
+| Banner, footer, silk dividers | Hand-generated SVG — `assets/gen_hero.py` |
+| Contribution ramp | One hue, monotone lightness, validated — low chroma so the snake stays the figure |
 | Web draw-in | `pathLength="1"` + animated `stroke-dashoffset` |
 | Name glitch | 3 stacked `<text>` layers, red/blue offset on a `steps()` loop |
 | Depth | 3 parallax layers drifting at different rates |
@@ -96,7 +128,7 @@ top of the file; change them and re-run to restyle the whole page.
 
 </details>
 
-<p align="center"><img src="https://raw.githubusercontent.com/BuiVannn/BuiVannn/main/assets/thread.svg?v=2" height="104" alt=""/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/BuiVannn/BuiVannn/main/assets/thread.svg?v=3" height="96" alt=""/></p>
 
 <!-- ════════════════════ STATS ════════════════════ -->
 ## 📊 &nbsp;GitHub stats
@@ -117,7 +149,7 @@ top of the file; change them and re-run to restyle the whole page.
 
 </div>
 
-<p align="center"><img src="https://raw.githubusercontent.com/BuiVannn/BuiVannn/main/assets/thread.svg?v=2" height="104" alt=""/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/BuiVannn/BuiVannn/main/assets/thread.svg?v=3" height="96" alt=""/></p>
 
 ## 📈 &nbsp;Web activity
 
@@ -125,17 +157,21 @@ top of the file; change them and re-run to restyle the whole page.
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=BuiVannn&bg_color=0a0e22&color=447bbe&line=df1f2d&point=ffffff&area=true&area_color=2b3784&hide_border=true&custom_title=Contributions%20in%20the%20last%2031%20days" alt="activity graph"/>
 </div>
 
-<p align="center"><img src="https://raw.githubusercontent.com/BuiVannn/BuiVannn/main/assets/thread.svg?v=2" height="104" alt=""/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/BuiVannn/BuiVannn/main/assets/thread.svg?v=3" height="96" alt=""/></p>
 
 ## 🐍 &nbsp;Contribution snake
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/BuiVannn/BuiVannn/output/snake-dark.svg" alt="snake animation"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BuiVannn/BuiVannn/output/snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BuiVannn/BuiVannn/output/snake.svg"/>
+  <img src="https://raw.githubusercontent.com/BuiVannn/BuiVannn/output/snake-dark.svg" alt="snake animation"/>
+</picture>
 </div>
 
 <br/>
 
 <!-- ════════════════════ FOOTER ════════════════════ -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BuiVannn/BuiVannn/main/assets/footer.svg?v=2" width="100%" alt="Thanks for swinging by"/>
+  <img src="https://raw.githubusercontent.com/BuiVannn/BuiVannn/main/assets/footer.svg?v=3" width="100%" alt="Thanks for swinging by"/>
 </p>
