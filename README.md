@@ -1,24 +1,28 @@
-<!-- ═════════════════════════ HEADER ═════════════════════════ -->
+<!-- ════════════════════ HERO ════════════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:70a5fd,100:bf91f3&height=200&section=header&text=Bui%20Mau%20Van&fontSize=52&fontColor=ffffff&fontAlignY=34&desc=AI%20Engineer%20in%20the%20making&descAlignY=54&descSize=18" width="100%" alt="header"/>
+  <img src="https://raw.githubusercontent.com/BuiVannn/BuiVannn/main/assets/hero.svg?v=1" width="100%" alt="Bui Mau Van - AI Engineer"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=70A5FD&center=true&vCenter=true&width=680&height=45&lines=CS+student+%40+PTIT%2C+Vietnam;LLM+%C2%B7+RAG+%C2%B7+Multi-Agent+Systems;Speech+AI+%3A+TTS+%2F+ASR+%2F+Diarization;Python+%C2%B7+PyTorch+%C2%B7+FastAPI+%C2%B7+Docker;Open+to+freelance+%26+internship" alt="typing"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3200&pause=900&color=FF1973&center=true&vCenter=true&width=700&height=42&lines=CS+student+%40+PTIT%2C+Hanoi;LLM+%C2%B7+RAG+%C2%B7+Multi-Agent+Systems;Speech+AI+%3A+TTS+%2F+ASR+%2F+Diarization;Open+to+freelance+%26+internship" alt="typing"/>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=BuiVannn&label=Profile%20views&color=70a5fd&style=flat-square" alt="views"/>
-  <a href="https://www.linkedin.com/in/bui-mau-van-9870192b7/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="linkedin"/></a>
-  <a href="https://www.facebook.com/BuiVan2004/"><img src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="facebook"/></a>
-  <a href="mailto:buivanphuctho@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="gmail"/></a>
-  <a href="https://github.com/BuiVannn?tab=followers"><img src="https://img.shields.io/github/followers/BuiVannn?style=flat-square&color=bf91f3&labelColor=1a1b27" alt="followers"/></a>
+  <a href="https://www.linkedin.com/in/bui-mau-van-9870192b7/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/></a>
+  <a href="https://www.facebook.com/BuiVan2004/"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="facebook"/></a>
+  <a href="mailto:buivanphuctho@gmail.com"><img src="https://img.shields.io/badge/Gmail-E23636?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail"/></a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=BuiVannn&label=VISITORS&color=ff1973&style=flat-square&labelColor=0d0221" alt="views"/>
+  <a href="https://github.com/BuiVannn?tab=followers"><img src="https://img.shields.io/github/followers/BuiVannn?style=flat-square&color=ff1973&labelColor=0d0221&label=FOLLOWERS" alt="followers"/></a>
+  <a href="https://github.com/BuiVannn?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FBuiVannn&query=%24.public_repos&label=REPOS&color=00ffe7&style=flat-square&labelColor=0d0221" alt="repos"/></a>
 </p>
 
 <br/>
 
-<!-- ═════════════════════════ ABOUT ═════════════════════════ -->
-## 🧠 About me
+<!-- ════════════════════ ABOUT ════════════════════ -->
+## 🕷️ &nbsp;About me
 
 <table>
   <tr><td align="right"><b>🎓&nbsp; Education</b></td><td>Computer Science @ <b>PTIT</b> — Hanoi, Vietnam</td></tr>
@@ -31,8 +35,8 @@
 
 <br/>
 
-<!-- ═════════════════════════ STACK ═════════════════════════ -->
-## 🛠️ Tech stack
+<!-- ════════════════════ STACK ════════════════════ -->
+## 🕸️ &nbsp;Tech stack
 
 <table>
   <tr><td align="right"><b>AI / ML</b></td><td><img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,opencv&theme=dark" alt="ai"/></td></tr>
@@ -45,8 +49,8 @@
 
 <br/>
 
-<!-- ═════════════════════════ PROJECTS ═════════════════════════ -->
-## 🚀 Featured projects
+<!-- ════════════════════ PROJECTS ════════════════════ -->
+## 🔴 &nbsp;Featured projects
 
 <!-- TODO: kiem tra lai tung dong mo ta cho dung voi thuc te project -->
 | Project | Description | Stack |
@@ -58,99 +62,73 @@
 | **[Kid-mentor](https://github.com/BuiVannn/Kid-mentor)** | Android mentoring application for children | `Kotlin` `Android` |
 | **[Datathon](https://github.com/BuiVannn/datathon)** | Data analysis and modeling for a datathon competition | `Jupyter` `Pandas` |
 
+<details>
+<summary><b>🕸️ &nbsp;How this profile page is built — click to open</b></summary>
+
 <br/>
 
-<!-- ═════════════════════════ STATS ═════════════════════════ -->
-## 📊 GitHub stats
+GitHub strips `<script>`, `<style>`, `<canvas>`, `<iframe>` and inline `style=` from every
+README. No JavaScript can run here, so WebGL and Three.js are off the table.
+
+There is exactly one gap left: **CSS `@keyframes` declared *inside* an `.svg` file** survives
+the sanitizer and animates when the SVG is loaded through `<img>`.
+
+Everything moving on this page rides through that gap:
+
+| Element | Technique |
+|---|---|
+| Banner + footer | Hand-generated SVG — `assets/gen_hero.py` |
+| Web draw-in | `pathLength="1"` + animated `stroke-dashoffset` |
+| Name glitch | 3 stacked `<text>` layers, magenta/cyan offset on a `steps()` loop |
+| Depth | 3 parallax layers drifting at different rates |
+| Contribution snake | GitHub Action, regenerated daily |
+| Accessibility | Every animation is disabled under `prefers-reduced-motion` |
+
+The banner geometry is trigonometric, not hand-placed — `gen_hero.py` computes 9 radial
+strands and 6 concentric rings per corner, then emits the SVG. Re-run it to restyle.
+
+</details>
+
+<br/>
+
+<!-- ════════════════════ STATS ════════════════════ -->
+## 📊 &nbsp;GitHub stats
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=BuiVannn&theme=tokyonight"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=BuiVannn&theme=github"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=BuiVannn&theme=tokyonight" alt="profile details"/>
-</picture>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=BuiVannn&theme=radical" alt="profile details"/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BuiVannn&theme=tokyonight"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BuiVannn&theme=github"/>
-  <img width="340" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BuiVannn&theme=tokyonight" alt="stats"/>
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=BuiVannn&theme=tokyonight&utcOffset=7"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=BuiVannn&theme=github&utcOffset=7"/>
-  <img width="340" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=BuiVannn&theme=tokyonight&utcOffset=7" alt="productive time"/>
-</picture>
+<img width="340" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BuiVannn&theme=radical" alt="stats"/>
+<img width="340" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=BuiVannn&theme=radical&utcOffset=7" alt="productive time"/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=BuiVannn&theme=tokyonight"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=BuiVannn&theme=github"/>
-  <img width="340" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=BuiVannn&theme=tokyonight" alt="repos per language"/>
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=BuiVannn&theme=tokyonight"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=BuiVannn&theme=github"/>
-  <img width="340" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=BuiVannn&theme=tokyonight" alt="most commit language"/>
-</picture>
+<img width="340" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=BuiVannn&theme=radical" alt="repos per language"/>
+<img width="340" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=BuiVannn&theme=radical" alt="most commit language"/>
 
 <br/><br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=BuiVannn&hide_border=true&theme=tokyonight&background=00000000&ring=70A5FD&fire=BF91F3&currStreakLabel=70A5FD"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=BuiVannn&hide_border=true&theme=default&background=00000000&ring=0969DA&fire=8250DF&currStreakLabel=0969DA"/>
-  <img src="https://streak-stats.demolab.com?user=BuiVannn&hide_border=true&theme=tokyonight" alt="streak"/>
-</picture>
+<img src="https://streak-stats.demolab.com?user=BuiVannn&hide_border=true&background=0D0221&ring=FF1973&fire=E23636&currStreakLabel=00FFE7&sideLabels=FFFFFF&dates=9B8FB5&sideNums=FFFFFF&currStreakNum=FFFFFF&stroke=FF1973" alt="streak"/>
 
-</div>
-
-<!--
-  ┌─────────────────────────────────────────────────────────────────────┐
-  │  BONUS: card github-readme-stats "kinh dien"                        │
-  │  Instance cong cong dang bi PAUSE (503), nen phai tu deploy:        │
-  │    1. Fork  https://github.com/anuraghazra/github-readme-stats      │
-  │    2. Vao vercel.com -> Add New Project -> import ban fork          │
-  │    3. Them env var  PAT_1 = <GitHub personal access token>          │
-  │    4. Deploy, lay domain vi du  grs-buivannn.vercel.app             │
-  │    5. Doi domain ben duoi roi bo dau comment cua khoi nay           │
-  └─────────────────────────────────────────────────────────────────────┘
-
-<div align="center">
-  <img height="170" src="https://YOUR-DOMAIN.vercel.app/api?username=BuiVannn&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&hide_border=true&theme=tokyonight&bg_color=00000000&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9" alt="stats"/>
-  <img height="170" src="https://YOUR-DOMAIN.vercel.app/api/top-langs/?username=BuiVannn&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&bg_color=00000000&title_color=70a5fd&text_color=c9d1d9" alt="top langs"/>
-</div>
--->
-
-<br/>
-
-<!-- ═════════════════════════ ACTIVITY ═════════════════════════ -->
-## 📈 Contribution activity
-
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=BuiVannn&bg_color=00000000&color=70a5fd&line=bf91f3&point=ffffff&area=true&area_color=70a5fd&hide_border=true&custom_title=Contributions%20in%20the%20last%2031%20days"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=BuiVannn&bg_color=00000000&color=0969da&line=8250df&point=1a1b27&area=true&area_color=0969da&hide_border=true&custom_title=Contributions%20in%20the%20last%2031%20days"/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=BuiVannn&theme=tokyo-night&hide_border=true" alt="activity graph"/>
-</picture>
 </div>
 
 <br/>
 
-<!-- ═════════════════════════ SNAKE ═════════════════════════ -->
-## 🐍 Contribution snake
+## 📈 &nbsp;Web activity
 
 <div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BuiVannn/BuiVannn/output/snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BuiVannn/BuiVannn/output/snake.svg"/>
-  <img src="https://raw.githubusercontent.com/BuiVannn/BuiVannn/output/snake.svg" alt="snake animation"/>
-</picture>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=BuiVannn&bg_color=0d0221&color=00ffe7&line=ff1973&point=ffffff&area=true&area_color=ff1973&hide_border=true&custom_title=Contributions%20in%20the%20last%2031%20days" alt="activity graph"/>
 </div>
 
 <br/>
 
-<!-- ═════════════════════════ FOOTER ═════════════════════════ -->
-<p align="center"><i>“Ship real AI products, not just notebooks.”</i></p>
+## 🐍 &nbsp;Contribution snake
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/BuiVannn/BuiVannn/output/snake-dark.svg" alt="snake animation"/>
+</div>
+
+<br/>
+
+<!-- ════════════════════ FOOTER ════════════════════ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:bf91f3,50:70a5fd,100:1a1b27&height=140&section=footer" width="100%" alt="footer"/>
+  <img src="https://raw.githubusercontent.com/BuiVannn/BuiVannn/main/assets/footer.svg?v=1" width="100%" alt="Thanks for swinging by"/>
 </p>
