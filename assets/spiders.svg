@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="Three Spider-Men pointing: train, val, test - data leakage?">
+<title>train / val / test - data leakage?</title>
+<defs>
+<linearGradient id="sbg" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#131a44"/><stop offset="100%" stop-color="#0a0e22"/></linearGradient>
+<pattern id="sp" width="13" height="13" patternUnits="userSpaceOnUse">
+<circle cx="3" cy="3" r="2" fill="#df1f2d"/></pattern>
+<clipPath id="hc"><ellipse rx="16" ry="17.5"/></clipPath>
+<style>
+.sp{animation:rise .7s cubic-bezier(.2,1.2,.4,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(26px)}}
+.cap{animation:cfade .8s ease-out both;animation-delay:1.15s}
+@keyframes cfade{from{opacity:0}}
+.zig{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1s ease-out forwards;
+  animation-delay:.95s}
+@keyframes draw{to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}
+  .zig{stroke-dashoffset:0}}
+</style>
+</defs>
+<rect width="1000" height="300" fill="url(#sbg)"/>
+<rect width="1000" height="300" fill="url(#sp)" opacity=".1"/>
+<rect width="1000" height="2.5" fill="#df1f2d"/>
+<rect y="297.5" width="1000" height="2.5" fill="#447bbe"/>
+<g class="sp" transform="translate(215,118)" style="animation-delay:0.0s">
+<ellipse cy="66" rx="30" ry="6" fill="#0a0e22" opacity=".55"/>
+<path d="M-11 4L11 4L14 62L5 62L0 26L-5 62L-14 62Z" fill="#2b3784"/>
+<path d="M-16 -34L16 -34L12 6L-12 6Z" fill="#df1f2d"/>
+<path d="M-16 -34L16 -34L15 -22L-15 -22Z" fill="#b11313" opacity=".4"/>
+<g transform="translate(0,-19)"><g transform="scale(0.42)"><g stroke="#0a0e22" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M-2.5 -7.0Q-6.6 -25.0 -12.0 -22.0Q-18.5 -16.5 -25.0 -14.0"/><path d="M-2.5 -3.0Q-8.2 -19.0 -15.0 -16.0Q-22.5 -8.0 -30.0 -3.0"/><path d="M-2.5 1.5Q-8.8 -10.0 -16.0 -7.0Q-23.0 3.0 -30.0 10.0"/><path d="M-2.5 5.5Q-7.7 -1.0 -14.0 2.0Q-19.0 13.5 -24.0 22.0"/><path d="M2.5 -7.0Q6.6 -25.0 12.0 -22.0Q18.5 -16.5 25.0 -14.0"/><path d="M2.5 -3.0Q8.2 -19.0 15.0 -16.0Q22.5 -8.0 30.0 -3.0"/><path d="M2.5 1.5Q8.8 -10.0 16.0 -7.0Q23.0 3.0 30.0 10.0"/><path d="M2.5 5.5Q7.7 -1.0 14.0 2.0Q19.0 13.5 24.0 22.0"/></g><circle cy="-11" r="4.4" fill="#0a0e22"/><ellipse cy="-4" rx="5.4" ry="6" fill="#0a0e22"/><path d="M0 1C4.6 1 6.4 7 6.4 12C6.4 18 3.4 24 0 24C-3.4 24 -6.4 18 -6.4 12C-6.4 7 -4.6 1 0 1Z" fill="#0a0e22"/><path d="M0 3C2.2 6 2.4 15 0 21C-2.4 15 -2.2 6 0 3Z" fill="#0a0e22" opacity=".55"/></g></g>
+<path d="M-15 -30L-25 -4L-19 0L-10 -24Z" fill="#df1f2d"/>
+<path d="M15 -31L44 -25L47 -19L14 -22Z" fill="#df1f2d"/>
+<circle cx="49" cy="-22" r="3.4" fill="#df1f2d"/>
+<g transform="translate(0,-47)">
+<ellipse rx="16" ry="17.5" fill="#df1f2d"/>
+<g clip-path="url(#hc)"><line x1="-14.0" y1="-19" x2="-14.0" y2="19" stroke="#b11313" stroke-width=".8" opacity=".9"/><line x1="-7.0" y1="-19" x2="-7.0" y2="19" stroke="#b11313" stroke-width=".8" opacity=".9"/><line x1="0.0" y1="-19" x2="0.0" y2="19" stroke="#b11313" stroke-width=".8" opacity=".9"/><line x1="7.0" y1="-19" x2="7.0" y2="19" stroke="#b11313" stroke-width=".8" opacity=".9"/><line x1="14.0" y1="-19" x2="14.0" y2="19" stroke="#b11313" stroke-width=".8" opacity=".9"/><path d="M-18 -13Q0 -7 18 -13" fill="none" stroke="#b11313" stroke-width=".8" opacity=".9"/><path d="M-18 -5Q0 1 18 -5" fill="none" stroke="#b11313" stroke-width=".8" opacity=".9"/><path d="M-18 3Q0 9 18 3" fill="none" stroke="#b11313" stroke-width=".8" opacity=".9"/><path d="M-18 11Q0 17 18 11" fill="none" stroke="#b11313" stroke-width=".8" opacity=".9"/></g>
+<path d="M-13 -4Q-7 -12 -1.5 -5Q-6 1 -13 -4Z" fill="#ffffff" stroke="#0a0e22" stroke-width="1.4" stroke-linejoin="round"/>
+<path d="M13 -4Q7 -12 1.5 -5Q6 1 13 -4Z" fill="#ffffff" stroke="#0a0e22" stroke-width="1.4" stroke-linejoin="round"/>
+</g>
+<text y="92" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="13" fill="#447bbe" letter-spacing="3">TRAIN</text>
+</g>
+<g class="sp" transform="translate(500,118)" style="animation-delay:0.15s">
+<ellipse cy="66" rx="30" ry="6" fill="#0a0e22" opacity=".55"/>
+<path d="M-11 4L11 4L14 62L5 62L0 26L-5 62L-14 62Z" fill="#2b3784"/>
+<path d="M-16 -34L16 -34L12 6L-12 6Z" fill="#df1f2d"/>
+<path d="M-16 -34L16 -34L15 -22L-15 -22Z" fill="#b11313" opacity=".4"/>
+<g transform="translate(0,-19)"><g transform="scale(0.42)"><g stroke="#0a0e22" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M-2.5 -7.0Q-6.6 -25.0 -12.0 -22.0Q-18.5 -16.5 -25.0 -14.0"/><path d="M-2.5 -3.0Q-8.2 -19.0 -15.0 -16.0Q-22.5 -8.0 -30.0 -3.0"/><path d="M-2.5 1.5Q-8.8 -10.0 -16.0 -7.0Q-23.0 3.0 -30.0 10.0"/><path d="M-2.5 5.5Q-7.7 -1.0 -14.0 2.0Q-19.0 13.5 -24.0 22.0"/><path d="M2.5 -7.0Q6.6 -25.0 12.0 -22.0Q18.5 -16.5 25.0 -14.0"/><path d="M2.5 -3.0Q8.2 -19.0 15.0 -16.0Q22.5 -8.0 30.0 -3.0"/><path d="M2.5 1.5Q8.8 -10.0 16.0 -7.0Q23.0 3.0 30.0 10.0"/><path d="M2.5 5.5Q7.7 -1.0 14.0 2.0Q19.0 13.5 24.0 22.0"/></g><circle cy="-11" r="4.4" fill="#0a0e22"/><ellipse cy="-4" rx="5.4" ry="6" fill="#0a0e22"/><path d="M0 1C4.6 1 6.4 7 6.4 12C6.4 18 3.4 24 0 24C-3.4 24 -6.4 18 -6.4 12C-6.4 7 -4.6 1 0 1Z" fill="#0a0e22"/><path d="M0 3C2.2 6 2.4 15 0 21C-2.4 15 -2.2 6 0 3Z" fill="#0a0e22" opacity=".55"/></g></g>
+<path d="M15 -30L25 -4L19 0L10 -24Z" fill="#df1f2d"/>
+<path d="M-15 -31L-44 -25L-47 -19L-14 -22Z" fill="#df1f2d"/>
+<circle cx="-49" cy="-22" r="3.4" fill="#df1f2d"/>
+<g transform="translate(0,-47)">
+<ellipse rx="16" ry="17.5" fill="#df1f2d"/>
+<g clip-path="url(#hc)"><line x1="-14.0" y1="-19" x2="-14.0" y2="19" stroke="#b11313" stroke-width=".8" opacity=".9"/><line x1="-7.0" y1="-19" x2="-7.0" y2="19" stroke="#b11313" stroke-width=".8" opacity=".9"/><line x1="0.0" y1="-19" x2="0.0" y2="19" stroke="#b11313" stroke-width=".8" opacity=".9"/><line x1="7.0" y1="-19" x2="7.0" y2="19" stroke="#b11313" stroke-width=".8" opacity=".9"/><line x1="14.0" y1="-19" x2="14.0" y2="19" stroke="#b11313" stroke-width=".8" opacity=".9"/><path d="M-18 -13Q0 -7 18 -13" fill="none" stroke="#b11313" stroke-width=".8" opacity=".9"/><path d="M-18 -5Q0 1 18 -5" fill="none" stroke="#b11313" stroke-width=".8" opacity=".9"/><path d="M-18 3Q0 9 18 3" fill="none" stroke="#b11313" stroke-width=".8" opacity=".9"/><path d="M-18 11Q0 17 18 11" fill="none" stroke="#b11313" stroke-width=".8" opacity=".9"/></g>
+<path d="M-13 -4Q-7 -12 -1.5 -5Q-6 1 -13 -4Z" fill="#ffffff" stroke="#0a0e22" stroke-width="1.4" stroke-linejoin="round"/>
+<path d="M13 -4Q7 -12 1.5 -5Q6 1 13 -4Z" fill="#ffffff" stroke="#0a0e22" stroke-width="1.4" stroke-linejoin="round"/>
+</g>
+<text y="92" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="13" fill="#447bbe" letter-spacing="3">VAL</text>
+</g>
+<g class="sp" transform="translate(785,118)" style="animation-delay:0.3s">
+<ellipse cy="66" rx="30" ry="6" fill="#0a0e22" opacity=".55"/>
+<path d="M-11 4L11 4L14 62L5 62L0 26L-5 62L-14 62Z" fill="#2b3784"/>
+<path d="M-16 -34L16 -34L12 6L-12 6Z" fill="#df1f2d"/>
+<path d="M-16 -34L16 -34L15 -22L-15 -22Z" fill="#b11313" opacity=".4"/>
+<g transform="translate(0,-19)"><g transform="scale(0.42)"><g stroke="#0a0e22" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M-2.5 -7.0Q-6.6 -25.0 -12.0 -22.0Q-18.5 -16.5 -25.0 -14.0"/><path d="M-2.5 -3.0Q-8.2 -19.0 -15.0 -16.0Q-22.5 -8.0 -30.0 -3.0"/><path d="M-2.5 1.5Q-8.8 -10.0 -16.0 -7.0Q-23.0 3.0 -30.0 10.0"/><path d="M-2.5 5.5Q-7.7 -1.0 -14.0 2.0Q-19.0 13.5 -24.0 22.0"/><path d="M2.5 -7.0Q6.6 -25.0 12.0 -22.0Q18.5 -16.5 25.0 -14.0"/><path d="M2.5 -3.0Q8.2 -19.0 15.0 -16.0Q22.5 -8.0 30.0 -3.0"/><path d="M2.5 1.5Q8.8 -10.0 16.0 -7.0Q23.0 3.0 30.0 10.0"/><path d="M2.5 5.5Q7.7 -1.0 14.0 2.0Q19.0 13.5 24.0 22.0"/></g><circle cy="-11" r="4.4" fill="#0a0e22"/><ellipse cy="-4" rx="5.4" ry="6" fill="#0a0e22"/><path d="M0 1C4.6 1 6.4 7 6.4 12C6.4 18 3.4 24 0 24C-3.4 24 -6.4 18 -6.4 12C-6.4 7 -4.6 1 0 1Z" fill="#0a0e22"/><path d="M0 3C2.2 6 2.4 15 0 21C-2.4 15 -2.2 6 0 3Z" fill="#0a0e22" opacity=".55"/></g></g>
+<path d="M15 -30L25 -4L19 0L10 -24Z" fill="#df1f2d"/>
+<path d="M-15 -31L-44 -25L-47 -19L-14 -22Z" fill="#df1f2d"/>
+<circle cx="-49" cy="-22" r="3.4" fill="#df1f2d"/>
+<g transform="translate(0,-47)">
+<ellipse rx="16" ry="17.5" fill="#df1f2d"/>
+<g clip-path="url(#hc)"><line x1="-14.0" y1="-19" x2="-14.0" y2="19" stroke="#b11313" stroke-width=".8" opacity=".9"/><line x1="-7.0" y1="-19" x2="-7.0" y2="19" stroke="#b11313" stroke-width=".8" opacity=".9"/><line x1="0.0" y1="-19" x2="0.0" y2="19" stroke="#b11313" stroke-width=".8" opacity=".9"/><line x1="7.0" y1="-19" x2="7.0" y2="19" stroke="#b11313" stroke-width=".8" opacity=".9"/><line x1="14.0" y1="-19" x2="14.0" y2="19" stroke="#b11313" stroke-width=".8" opacity=".9"/><path d="M-18 -13Q0 -7 18 -13" fill="none" stroke="#b11313" stroke-width=".8" opacity=".9"/><path d="M-18 -5Q0 1 18 -5" fill="none" stroke="#b11313" stroke-width=".8" opacity=".9"/><path d="M-18 3Q0 9 18 3" fill="none" stroke="#b11313" stroke-width=".8" opacity=".9"/><path d="M-18 11Q0 17 18 11" fill="none" stroke="#b11313" stroke-width=".8" opacity=".9"/></g>
+<path d="M-13 -4Q-7 -12 -1.5 -5Q-6 1 -13 -4Z" fill="#ffffff" stroke="#0a0e22" stroke-width="1.4" stroke-linejoin="round"/>
+<path d="M13 -4Q7 -12 1.5 -5Q6 1 13 -4Z" fill="#ffffff" stroke="#0a0e22" stroke-width="1.4" stroke-linejoin="round"/>
+</g>
+<text y="92" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="13" fill="#447bbe" letter-spacing="3">TEST</text>
+</g>
+<text class="cap" x="500" y="272" text-anchor="middle" font-family="Impact,Haettenschweiler,'Arial Narrow Bold','Franklin Gothic Bold',sans-serif" font-size="26" fill="#ffffff" letter-spacing="5">DATA LEAKAGE?</text>
+</svg>
